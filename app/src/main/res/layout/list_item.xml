@@ -13,13 +13,26 @@
       android:layout_height="wrap_content"
       android:layout_weight="1"
       android:fontFamily="sans-serif-light"
+      android:layout_gravity="center_vertical"
       android:gravity="center_vertical"
-      android:minHeight="48dp"
+      android:minHeight="40dp"
       android:textColor="?android:attr/textColorSecondary"
       android:textSize="20sp"
       tools:ignore="UnusedAttribute"
       android:text="@string/item_text"
       />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/toggle"
+        android:minWidth="0dp"
+        android:textOn="Raise"
+        android:textOff="Raise"
+
+        />
 
   <com.nhaarman.listviewanimations.itemmanipulation.dragdrop.GripView
       android:id="@+id/grip"
