@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello"
-        android:background="@drawable/light_blue"
+        android:background="@drawable/action_button"
         android:textSize="18sp"
         />
 </LinearLayout>
